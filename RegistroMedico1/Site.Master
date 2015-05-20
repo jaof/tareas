@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="RegistroMedic.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/scss" href="Margenes.css" media="screen">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1 class="cabecera">
+
+            <div id="menu" aria-orientation="horizontal">
+                <ol style="margin-left: 3px">
+                    <li>Inicio</li>
+                    <li>Registro</li>
+                    <li>Consulta</li>
+                </ol>
+            </div>
+        </h1>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </form>
+    <h2>Pie de la Web Page</h2>
+
+</body>
+</html>
